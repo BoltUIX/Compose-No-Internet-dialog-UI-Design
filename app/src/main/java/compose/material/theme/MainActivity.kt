@@ -57,6 +57,7 @@ class MainActivity : ComponentActivity() {
                 }
 
                 if (infoDialog.value) {
+
                     InfoDialog(
                         title = "Whoops!",
                         desc = "No Internet Connection found.\n" +
@@ -65,6 +66,7 @@ class MainActivity : ComponentActivity() {
                             infoDialog.value = false
                         }
                     )
+
                 }
             }
         }

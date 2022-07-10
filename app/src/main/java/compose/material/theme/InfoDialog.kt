@@ -64,7 +64,7 @@ fun InfoDialog(
             ) {
 
                 Image(
-                    painter = painterResource(id = R.drawable.feby_internet),
+                    painter = painterResource(id = R.drawable.bolt_uix_no_internet),
                     contentDescription = null,
                     contentScale = ContentScale.Fit,
                     modifier = Modifier
